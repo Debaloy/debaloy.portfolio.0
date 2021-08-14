@@ -5,11 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-}
-
-section {
-    height: 100vh;
-    background: #000;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 header {
@@ -17,13 +13,12 @@ header {
     margin: 0;
     padding: 20px 15px;
     background: #000;
-    position: sticky;
 }
 
 header .left {
     float: left;
     color: white;
-    padding: 4px 4px;
+    padding: 4px 10px;
     font-size: 1.8em;
     cursor: pointer;
     animation: animate 7s linear forwards;
@@ -37,7 +32,7 @@ header .left:hover {
 
 header .mid {
     margin: auto;
-    width: 30%;
+    width: 40%;
     padding: 10px;
     text-align: center;
     font-size: 1.6em;
@@ -53,16 +48,18 @@ header .mid a {
 
 header .mid a:hover {
     color: #fff;
+    border-bottom: 2px solid #fff;
     transition: 0.4s;
 }
 
 header .right {
     padding: 4px 4px;
     position: absolute;
-    top: 20px;
+    top: 5px;
     right: 20px;
     animation: animate 7s linear forwards;
     animation-delay: 1s;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 header .right input {
@@ -77,6 +74,15 @@ header .right input {
 header .right input:hover {
     color: rgb(89, 231, 137);
     transition: 0.5s;
+}
+
+nav {
+    position: sticky;
+}
+
+section {
+    height: 100vh;
+    background: #000;
 }
 
 section::before {
@@ -114,6 +120,7 @@ h1 span {
     display: inline-block;
     animation: animate 1s linear forwards;
     cursor: pointer;
+    font-family: 'Caveat', cursive;
 }
 
 h1 span:hover {
