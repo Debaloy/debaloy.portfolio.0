@@ -1,2 +1,5 @@
-# debaloy.portfolio.0
-A portfolio website in progress
+# Portfolio Website
+
+Home icon imported from fontawesome.
+
+Smoke effect learned from OnlineTutorials [YouTube].
