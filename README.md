@@ -1,5 +1,5 @@
 # Portfolio Website
 
-Home icon imported from fontawesome.
+Icons imported from fontawesome.
 
-Smoke effect learned from OnlineTutorials [YouTube].
+Smoke, Glowing bg effect learned from OnlineTutorials [YouTube].
